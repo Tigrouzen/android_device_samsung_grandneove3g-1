@@ -71,6 +71,9 @@ BOARD_EGL_CFG := device/samsung/grandneove3g/configs/egl.cfg
 USE_OPENGL_RENDERER := true
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
 
+# CMHW
+BOARD_HARDWARE_CLASS := hardware/samsung/cmhw/ device/samsung/grandneove3g/cmhw/
+
 # Audio
 BOARD_USES_GENERIC_AUDIO := true
 BOARD_USES_TINYALSA_AUDIO := true
