@@ -50,7 +50,7 @@ COMMON_GLOBAL_CFLAGS += -DSEC_PRODUCT_FEATURE_RIL_CALL_DUALMODE_CDMAGSM
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM:=true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/grandneove3g/bluetooth
-BOARD_BLUEDROID_VENDOR_CONF := device/samsung/vivalto3gvn/grandneove3g/libbt_vndcfg.txt
+BOARD_BLUEDROID_VENDOR_CONF := device/samsung/grandneove3g/libbt_vndcfg.txt
 
 # Resolution
 TARGET_SCREEN_HEIGHT := 800
