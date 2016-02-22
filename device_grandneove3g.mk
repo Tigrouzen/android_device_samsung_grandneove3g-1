@@ -105,6 +105,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # before they have a chance to cause problems.
 # Default=true for development builds, set by android buildsystem.
 PRODUCT_PROPERTY_OVERRIDES += \
+    keyguard.no_require_sim=true \
     ro.kernel.android.checkjni=0 \
     dalvik.vm.checkjni=false
 
