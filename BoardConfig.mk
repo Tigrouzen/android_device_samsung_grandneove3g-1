@@ -49,6 +49,14 @@ COMMON_GLOBAL_CFLAGS += -DSEC_PRODUCT_FEATURE_RIL_CALL_DUALMODE_CDMAGSM
 # healthd
 BOARD_HAL_STATIC_LIBRARIES := libhealthd-grandneove3g
 
+# Enable dex-preoptimization to speed up the first boot sequence
+# of an SDK AVD. Note that this operation only works on Linux for now
+ifeq ($(HOST_OS),linux)
+  ifeq ($(WITH_DEXPREOPT),)
+    WITH_DEXPREOPT := true
+  endif
+endif
+
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM:=true
