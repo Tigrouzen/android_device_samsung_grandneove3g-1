@@ -8,8 +8,6 @@ bin/macloader
 bin/mfgloader
 bin/rild
 bin/sensorservice
-
-# Adding as kmsg through error :P
 bin/modemd
 bin/slog
 bin/slogctl
@@ -45,15 +43,14 @@ etc/slog.conf.user
 etc/spn-conf.xml
 etc/system_fonts.xml
 etc/tiny_hw.xml
-etc/wifi
+
+# Wifi
 etc/wifi/bcmdhd_apsta.bin
 etc/wifi/bcmdhd_mfg.bin
 etc/wifi/bcmdhd_sta.bin
 etc/wifi/nvram_mfg.txt
 etc/wifi/nvram_net.txt
-etc/wifi/p2p_supplicant_overlay.conf
 etc/wifi/wpa_supplicant.conf
-etc/wifi/wpa_supplicant_overlay.conf
 
 # egl
 lib/egl/egl.cfg
