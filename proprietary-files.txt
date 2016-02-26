@@ -61,28 +61,11 @@ lib/egl/libGLES_android.so
 lib/egl/libGLES_mali.so
 
 # hw
-lib/hw/audio.a2dp.default.so
 lib/hw/audio_policy.sc8830.so
-lib/hw/audio.primary.default.so
-lib/hw/audio.primary.goldfish.so
 lib/hw/audio.primary.sc8830.so
-lib/hw/audio.r_submix.default.so
-lib/hw/audio.usb.default.so
-lib/hw/bluetooth.default.so
-lib/hw/camera.goldfish.jpeg.so
-lib/hw/camera.goldfish.so
 lib/hw/camera.sc8830.so
-lib/hw/gps.default.so
-lib/hw/gps.goldfish.so
-lib/hw/gralloc.default.so
 lib/hw/gralloc.sc8830.so
 lib/hw/hwcomposer.sc8830.so
-lib/hw/keystore.default.so
-lib/hw/lights.goldfish.so
-lib/hw/local_time.default.so
-lib/hw/power.default.so
-lib/hw/power.goldfish.so
-lib/hw/sensors.goldfish.so
 lib/hw/sensors.sc8830.so
 lib/hw/sprd_gsp.sc8830.so
 
