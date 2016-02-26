@@ -90,7 +90,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     mobiledata.interfaces=rmnet0 \
     ro.zygote.disable_gl_preload=true \
     ro.cm.hardware.cabc=/sys/class/mdnie/mdnie/cabc \
-    persist.radio.multisim.config=none \
+    ro.telephony.ril_class=SamsungSPRDRIL \
+    persist.radio.multisim.config=dsds \
+    ro.multisim.simslotcount=2 \
     ro.telephony.call_ring.multiple=0 \
     ro.telephony.call_ring=0
 
