@@ -63,9 +63,11 @@ BOARD_HAVE_BLUETOOTH_BCM:=true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/grandneove3g/bluetooth
 BOARD_BLUEDROID_VENDOR_CONF := device/samsung/grandneove3g/libbt_vndcfg.txt
 
-# Resolution
+# Bootanimation
 TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
+TARGET_BOOTANIMATION_PRELOAD := true
+TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 
 # Wifi
 BOARD_WLAN_DEVICE := bcmdhd
