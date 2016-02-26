@@ -121,7 +121,7 @@ BOARD_SEPOLICY_UNION := \
 # Recovery
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_PREBUILT_KERNEL := device/samsung/grandneove3g/kernel
-TARGET_RECOVERY_INITRC := device/samsung/grandneove3g/init.rc
+#TARGET_RECOVERY_INITRC := device/samsung/grandneove3g/init.rc
 TARGET_RECOVERY_FSTAB := device/samsung/grandneove3g/recovery.fstab
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
