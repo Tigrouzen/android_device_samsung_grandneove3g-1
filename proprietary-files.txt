@@ -9,6 +9,12 @@ bin/mfgloader
 bin/rild
 bin/sensorservice
 
+# Adding as kmsg through error :P
+bin/modemd
+bin/slog
+bin/slogctl
+bin/phoneserver
+
 # etc
 etc/apns-conf.xml
 etc/audio_effects.conf
