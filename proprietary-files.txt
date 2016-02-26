@@ -60,10 +60,7 @@ lib/egl/egl.cfg
 lib/egl/libGLES_android.so
 lib/egl/libGLES_mali.so
 
-# libs
-lib/drm/libdrmwvmplugin.so
-lib/drm/libfwdlockengine.so
-lib/drm/libomaplugin.so
+# hw
 lib/hw/audio.a2dp.default.so
 lib/hw/audio_policy.sc8830.so
 lib/hw/audio.primary.default.so
@@ -88,6 +85,11 @@ lib/hw/power.goldfish.so
 lib/hw/sensors.goldfish.so
 lib/hw/sensors.sc8830.so
 lib/hw/sprd_gsp.sc8830.so
+
+# libs
+lib/drm/libdrmwvmplugin.so
+lib/drm/libfwdlockengine.so
+lib/drm/libomaplugin.so
 lib/libalgobsx.so
 lib/libanalytics.so
 lib/libandroidfw.so
