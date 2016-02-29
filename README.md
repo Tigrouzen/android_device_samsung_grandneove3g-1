@@ -11,6 +11,5 @@
 | Shipped Android Version | (4.4)                                 |
 | Storage                 | 8 GB                                  |
 | MicroSD                 | Up to 64GB                            |
-| Battery                 | 3100 mAh                              |
 | Display                 | 480 x 800 pixels                      |
 | Camera                  | 5 MP                                  |
